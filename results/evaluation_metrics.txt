@@ -1,0 +1,26 @@
+Model: Random Forest Classifier
+Version: 1.0
+Date: 25-06-2024
+
+Dataset: Email Spam Detection Dataset
+Source: https://spamassassin.apache.org/old/publiccorpus/
+Preprocessing:
+    - Feature Extraction
+    - Word Stemming for improved model intelligence
+
+Evaluation Metrics:
+    - Accuracy: 0.83
+    - for non-spam emails:
+        Precision (Class 0): 0.92
+        Recall (Class 0): 0.94
+        F1-score (Class 0): 0.93
+    - for spam emails:
+        Precision (Class 1): 0.87
+        Recall (Class 1): 0.83
+        F1-score (Class 1): 0.85
+
+Additional Notes:
+- The model performed well on the test set with an accuracy of 83% and 
+  good F1-scores (> 0.80) for both the classes.
+- Class imbalance was addressed using a lower decision threshold, improving recall for Class 1 (spam).
+- Further tuning of hyperparameters could potentially improve overall performance.
