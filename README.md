@@ -19,6 +19,7 @@ email-spam-detection/
 │ ├── ham/
 │ ├── spam/
 │ ├── data_final.csv
+│ ├── run-pipeline.py
 │ └── process_emails.py
 ├── ml-model/
 │ └── EmailSpamDetection.ipynb
