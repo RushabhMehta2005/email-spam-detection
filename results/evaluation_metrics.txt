@@ -9,7 +9,7 @@ Preprocessing:
     - Word Stemming for improved model intelligence
 
 Evaluation Metrics:
-    - Accuracy: 0.83
+    - Best Model Precision: 0.83 
     - for non-spam emails:
         Precision (Class 0): 0.92
         Recall (Class 0): 0.94
@@ -20,7 +20,7 @@ Evaluation Metrics:
         F1-score (Class 1): 0.85
 
 Additional Notes:
-- The model performed well on the test set with an accuracy of 83% and 
-  good F1-scores (> 0.80) for both the classes.
+- The model performed well on the test set with an precision of 83% and 
+  good F1-scores (> 0.85) for both the classes.
 - Class imbalance was addressed using a lower decision threshold, improving recall for Class 1 (spam).
 - Further tuning of hyperparameters could potentially improve overall performance.
