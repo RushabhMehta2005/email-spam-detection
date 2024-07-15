@@ -14,18 +14,18 @@ This project involves the creation of an email spam classifier using the SpamAss
 ## Project Structure
 The project directory structure is as follows:
 
-email-spam-detection/
-├── data-pipeline/
-│ ├── ham/
-│ ├── spam/
-│ ├── data_final.csv
-│ ├── run-pipeline.py
-│ └── process_emails.py
-├── ml-model/
-│ └── EmailSpamDetection.ipynb
-├── README.md
-└── requirements.txt
-
+- email-spam-detection/
+  - data-pipeline/
+    - ham/
+    - spam/
+    - data_final.csv
+    - process_emails.py
+    - run-pipeline.py
+  - ml-model/
+    - EmailSpamDetection.ipynb
+  - README.md
+  - requirements.txt
+  
 ## Installation
 To run this project locally, follow these steps:
 
